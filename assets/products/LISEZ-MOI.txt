@@ -1,0 +1,21 @@
+PHOTOS PRODUITS — PRINCE SHOP
+
+Déposez ici les vraies photos, puis indiquez leur chemin dans data/products.js.
+
+  shoes/        chaussures
+  bags/         sacs
+  accessories/  accessoires
+
+Conseils
+  - Format portrait 4:5 (ex. 1200 x 1500 px), le produit bien centré.
+  - JPG ou WebP, moins de 300 Ko par photo.
+  - Un nom simple, sans espace ni accent :  mocassin-elegance-beige-1.jpg
+  - Une photo par couleur au minimum : la galerie change quand le client choisit la couleur.
+  - Évitez les photos où une marque tierce est lisible (logo, monogramme).
+
+Exemple dans data/products.js :
+  colors: [
+    { key: 'beige', images: ['assets/products/shoes/mocassin-elegance-beige-1.jpg',
+                             'assets/products/shoes/mocassin-elegance-beige-2.jpg'] },
+    { key: 'noir',  images: ['assets/products/shoes/mocassin-elegance-noir-1.jpg'] },
+  ],
